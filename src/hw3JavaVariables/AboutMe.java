@@ -19,7 +19,7 @@ public class AboutMe {
 		
 		System.out.println("My name is : " + me.name + "\nI am " + me.age+" years old ." + "\nmy Appartment Rent is : " + me.myAppartmentRent + "\nMy annual income : " + me.mySalary + "\nMy Bank Balance is : " + me.myBankBalance + "\nMy height: " + me.myHight + "\nMy Grade is : " + me.myGrade + "\nMy Sex : " + me.mySex + "\nI am a Us Citizen : " + me.usCitizen );
 		
-		
+		//////
 	}
 	
 	
