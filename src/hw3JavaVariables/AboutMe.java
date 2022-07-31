@@ -2,7 +2,7 @@ package hw3JavaVariables;
 
 
 public class AboutMe {
-// variable initialize
+		// Variable initialize
 	public String name = "Khaled Adi";
 	public byte age = 27;
 	public short myAppartmentRent = 2400;
@@ -13,11 +13,17 @@ public class AboutMe {
 	public char mySex = 'M';
 	public boolean usCitizen = true;
 	
+	
+	// Variable Declared
 	public static void main(String[] args) {
 		AboutMe me=new AboutMe();
 		
 		
-		System.out.println("My name is : " + me.name + "\nI am " + me.age+" years old ." + "\nmy Appartment Rent is : " + me.myAppartmentRent + "\nMy annual income : " + me.mySalary + "\nMy Bank Balance is : " + me.myBankBalance + "\nMy height: " + me.myHight + "\nMy Grade is : " + me.myGrade + "\nMy Sex : " + me.mySex + "\nI am a Us Citizen : " + me.usCitizen );
+		System.out.println("My name is : " + me.name + "\nI am " + me.age+" years old ."
+		+ "" + "\nmy Appartment Rent is : " + me.myAppartmentRent + 
+		"\nMy annual income : " + me.mySalary + "\nMy Bank Balance is : " + me.myBankBalance 
+		+ "\nMy height: " + me.myHight + "\nMy Grade is : " + me.myGrade +  "\nMy Sex : " + me.mySex + 
+			"\nI am a Us Citizen : " + me.usCitizen );
 		
 		//////
 	}
