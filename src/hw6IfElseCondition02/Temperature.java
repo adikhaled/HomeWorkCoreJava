@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class Temperature {
 
 	public static void main(String[] args) {
-		System.out.println("today temperature:");
+		System.out.println("today's temperature:");
 		Scanner scanner = new Scanner(System.in);
 		int todaysTemperature = scanner.nextInt();
 
@@ -21,7 +21,7 @@ public class Temperature {
 		} else {
 			System.out.println("Ice on my Head Please");
 		}
-
+		scanner.close();
 	}
 
 }
