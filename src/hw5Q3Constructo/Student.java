@@ -9,7 +9,7 @@ public class Student {
 	public boolean isProgramer;
 	public double grade;
 
-	public Student() {
+	public Student() { 
 		System.out.println("This is from default Constructor of Student class");
 	}// Parameterize contractor
 
